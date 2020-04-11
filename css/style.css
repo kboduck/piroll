@@ -149,6 +149,11 @@ hr {
     height: 425px;
 }
 
+.section--skills {
+    height: 570px;
+    background-color: #f8f9f9;
+}
+
 .section__header {
     width: 100%;
     max-width: 950px;
@@ -174,4 +179,37 @@ hr {
 .card {
     margin: 80px -15px 0;
     justify-content: space-between;
+}
+
+.card--skills {
+    margin: -323px 0 auto auto;
+    width: 50%;
+    height: 570px;
+    background-color: #e9e9e9;
+}
+
+
+/* Skills */
+
+.skills__title {
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.skills__item {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.skills__item:after {
+    content: "";
+    display: block;
+    width: 503px;
+    height: 5px;
+    background-color: #d8d8d8;
+}
+
+.skills__header {
+    padding-left: 100px;
 }
