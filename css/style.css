@@ -169,10 +169,17 @@ hr {
     text-align: center;
 }
 
-.section__title {
+.section__suptitle {
     font-size: 30px;
-    font-weight: 700;
-    color: #333;
+}
+
+.section__title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #989898;
+    width: 500px;
+    margin: 0 auto;
 }
 
 .section__text {
@@ -317,4 +324,24 @@ hr {
     text-align: center;
     font-size: 12px;
     color: #8e8e8e;
+}
+
+
+/* Devices */
+
+.devices {
+    width: 100%;
+    max-width: 1175px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__item {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.devices__item:hover {
+    cursor: pointer;
 }
