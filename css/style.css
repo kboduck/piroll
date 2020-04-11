@@ -140,3 +140,38 @@ hr {
     background-color: #fff;
     color: #333;
 }
+
+
+/* Section */
+
+.section {
+    padding: 100px 0;
+    height: 425px;
+}
+
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+
+.section__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+
+/* Card */
+
+.card {
+    margin: 80px -15px 0;
+    justify-content: space-between;
+}
