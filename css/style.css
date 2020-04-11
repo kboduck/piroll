@@ -213,3 +213,34 @@ hr {
 .skills__header {
     padding-left: 100px;
 }
+
+
+/* Statistics */
+
+.statistics {
+    background-color: #10c9c3;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stat__item {
+    flex: 1 1 0;
+    padding: 70px 25px;
+    text-align: left;
+    color: #fff;
+}
+
+.stat__count {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.stat__text {
+    font-size: 12px;
+    text-transform: uppercase;
+}
