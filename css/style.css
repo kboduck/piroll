@@ -159,7 +159,8 @@ hr {
 }
 
 .section--devices {
-    margin-top: 10%;
+    margin-top: 16%;
+    margin-bottom: 35%;
 }
 
 .section__header {
@@ -236,6 +237,10 @@ hr {
     background-color: #10c9c3;
 }
 
+.statistics--skills {
+    background-color: #f5f5f5;
+}
+
 .stat {
     display: flex;
     flex-wrap: wrap;
@@ -246,6 +251,11 @@ hr {
     padding: 70px 25px;
     text-align: left;
     color: #fff;
+}
+
+.stat__item--skills {
+    color: black;
+    text-align: center;
 }
 
 .stat__count {
@@ -330,6 +340,7 @@ hr {
 /* Devices */
 
 .devices {
+    padding-bottom: 60px;
     width: 100%;
     max-width: 1175px;
     margin: 0 auto;
