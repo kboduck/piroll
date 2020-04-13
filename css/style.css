@@ -501,8 +501,39 @@ hr {
 /* Footer */
 
 .footer {
-    display: flex;
     height: 285px;
     width: 100%;
     background: #141414;
+    color: #fff;
+}
+
+.footer__col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__item {
+    width: 5%;
+    margin-left: 100px;
+}
+
+.footer__item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__item--mail {
+    width: 10%;
+}
+
+.col__title {
+    padding-top: 100px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.col__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
 }
