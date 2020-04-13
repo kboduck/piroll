@@ -474,6 +474,7 @@ hr {
 }
 
 .subscribe__btn {
+    margin-left: 45%;
     height: 40px;
     padding: 12px 30px;
     background-color: #10c9c3;
