@@ -399,6 +399,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -536,4 +537,14 @@ hr {
 .col__text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;
+}
+
+@media (max-width: 620px) {
+.register {
+    padding-top: 40px;
+}
+
+.skills__item:after {
+    width: 100%;
+}
 }
