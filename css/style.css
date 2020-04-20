@@ -57,7 +57,7 @@ hr {
     z-index: 1000;
 }
 
-.header--fixed {
+.header.fixed {
     padding: 10px 0;
     background-color: #e9e9e9;
     box-shadow: 0 5px 10px rgba(0, 0,
