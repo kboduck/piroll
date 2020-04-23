@@ -58,7 +58,6 @@ hr {
 }
 
 .header.fixed {
-    padding: 10px 0;
     background-color: #e9e9e9;
     box-shadow: 0 5px 10px rgba(0, 0,
      0, 0.2);
@@ -664,6 +663,12 @@ hr {
 }
 
 @media (max-width: 750px) {
+    
+    .header__logo {
+        position: relative;
+        margin: 0 10px;
+        top: -10px;
+    }
     .nav {
         display: none;
         width: 100%;
@@ -701,9 +706,6 @@ hr {
 }
 
 @media (max-width: 620px) {
-    /* .register {
-        padding-top: 40px;
-    } */
     .skills__item:after {
         width: 100%;
     }
@@ -712,5 +714,19 @@ hr {
     }
     .register {
         margin-top: 150px;
+    }
+    .footer {
+        height: 100%;
+    }
+    .footer__col {
+        display: block;
+        align-items: baseline;
+
+    }
+    .footer__item {
+        margin: 0 20px;
+    }
+    .footer__item--mail {
+        width: 100%;
     }
 }
